@@ -2,4 +2,6 @@ import random
 
 while True:
     input()
-    print(random.choice(["yay", "lol", "wat", "funny", "er", ":D"]))
+    x = print(random.choice(["yay", "lol", "wat", "funny", "er", ":D"]))
+    if (x == "yay"):
+        print("yay");
