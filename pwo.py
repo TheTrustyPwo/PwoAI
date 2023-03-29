@@ -1,6 +1,6 @@
 import random
 
 while True:
-    input()
+    input("Write something:")
     print(random.choice(["yay", "lol", "wat", "funny", "er", ":D"]))
 
